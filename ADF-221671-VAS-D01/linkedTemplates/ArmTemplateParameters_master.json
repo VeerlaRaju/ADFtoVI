@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-221671-VAS-D01"
+		},
+		"Blob_sa221671vasd01_connectionString": {
+			"value": ""
+		},
+		"ChicagoIsilon_password": {
+			"value": ""
+		},
+		"ChicagoIsilon_properties_typeProperties_host": {
+			"value": "\\\\CVCSD1001-smb\\CHI_ISILON\\SFT\\ADF-MP-Test\\"
+		},
+		"ChicagoIsilon_properties_typeProperties_userId": {
+			"value": "dir\\A19044DIRN-DEV_SFT"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
