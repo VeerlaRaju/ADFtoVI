@@ -1,0 +1,9 @@
+{
+	"name": "ADF-221671-VAS-D01",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "104ba302-efb9-400b-93ef-00794fab0e51",
+		"tenantId": "65a35f26-6927-4a1f-9bfc-74e1ee531329"
+	}
+}

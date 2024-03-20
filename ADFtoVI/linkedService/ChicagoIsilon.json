@@ -1,0 +1,17 @@
+{
+	"name": "ChicagoIsilon",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\CVCSD1001-smb\\CHI_ISILON\\SFT\\ADF-MP-Test\\",
+			"userId": "dir\\A19044DIRN-DEV_SFT",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5ZWUwNzIwZC01MjIzLTQ0NzYtYWE1Yy02NmY2MWE0NTc4ZjQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-CHI01",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
