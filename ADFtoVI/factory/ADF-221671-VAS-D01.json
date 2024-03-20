@@ -1,5 +1,10 @@
 {
 	"name": "ADF-221671-VAS-D01",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		}
+	},
 	"location": "eastus2",
 	"identity": {
 		"type": "SystemAssigned",
